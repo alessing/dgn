@@ -1,0 +1,13 @@
+task_name: "NutAssemblySquare"
+episode_length: 300
+use_state: 1
+state_stack: 3
+preload_num_data: 50
+preload_datapath: "release/data/robomimic/square_low_dim/ph/low_dim_v141.hdf5"
+num_warm_up_episode: 0
+num_train_step: 550000
+log_per_step: 12500
+replay_buffer_size: 1000
+use_wb: 1
+mp_eval: 0
+num_eval_episode: 100

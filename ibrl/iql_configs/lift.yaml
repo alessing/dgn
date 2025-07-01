@@ -1,0 +1,13 @@
+task_name: "Lift"
+episode_length: 200
+use_state: 1
+state_stack: 3
+preload_num_data: 10
+preload_datapath: "release/data/robomimic/lift_low_dim/low_dim.hdf5"
+num_warm_up_episode: 0
+num_train_step: 200000
+replay_buffer_size: 1000
+use_wb: 1
+mp_eval: 0
+log_per_step: 5000
+num_eval_episode: 100
