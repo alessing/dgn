@@ -14,7 +14,8 @@ conda activate rlpd
 
 ## Adroit Binary
 
-First, download and unzip `.npy` files into `~/.datasets/awac-data/` from [here](https://drive.google.com/file/d/1SsVaQKZnY5UkuR78WrInp9XxTdKHbF0x/view).
+First, download and unzip `.npy` files into `~/.datasets/awac-data/` from [here](https://drive.google.com/file/d/1yUdJnGgYit94X_AvV6JJP5Y3Lx2JF30Y/view?pli=1).
+
 
 Make sure you have `mjrl` installed:
 ```bash
